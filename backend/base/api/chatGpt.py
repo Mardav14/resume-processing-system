@@ -7,7 +7,7 @@ import mimetypes
 import random
 
 # OpenAI API key
-# openai.api_key = "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"
+
 
 # Some constants
 interviewer = "Interviewer: "
