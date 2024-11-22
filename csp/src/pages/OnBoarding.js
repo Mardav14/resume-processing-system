@@ -1,5 +1,5 @@
 import React from 'react'
-import image from "C:/Users/MARDAV/Desktop/EDI_4/csp/src/pages/img.jpg";
+import image from "../../src/pages/img.jpg";
 import { Footer } from '../components/Footer';
 import {Link} from 'react-router-dom'
 //bootstrap imports

@@ -5,6 +5,7 @@ import Register from './pages/Register'
 import OnBoarding from './pages/OnBoarding'
 import SelectRole from './pages/SelectRole'
 import Quiz from './pages/Quiz'
+import Test from './pages/Test';
 
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import PrivateRoute from './utils/PrivateRoute'
@@ -30,6 +31,7 @@ function App() {
           <Route element={<HrDashboard />} path="/hr-dashboard" />
           <Route element={<Quiz />} path="/quiz/:title" />
           <Route element={<CreateJob />} path="/create-job" />
+          <Route element={<Test />} path="/test" />
           
           </Routes>
         </AuthProvider>

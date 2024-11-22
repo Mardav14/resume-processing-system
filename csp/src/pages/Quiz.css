@@ -17,13 +17,13 @@
     align-items: center;
     flex-direction: column;
     min-height: 400px;
-    width: 1200px;
+    width: 1300px;
     background-color: white;
     background-color: transparent;
     border-style: solid;
     border-color: rgb(179, 83, 179);
     overflow: hidden;
-    padding: 30px;
+    padding: 20px;
     position: relative;
   }
   .question{

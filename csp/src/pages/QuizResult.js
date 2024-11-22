@@ -18,6 +18,7 @@ function QuizResult(props) {
         body : JSON.stringify({'username': props.username, 'questions': props.questions, 'answers': props.allAnswers, 'url': props.url}),
 
     })
+    console.log(props.allAnswers)
     let data = await response.json()
     if(response.status === 200){
         setGreetingScore((data[0]+ data[1])*10)
@@ -45,7 +46,7 @@ function QuizResult(props) {
       <td style={{textAlign:"right"}}>{totalScore}/80</td>
       </tr>
       <tr>
-      <th style={{textAlign:"left"}}>Prefessionalism Score: </th>
+      <th style={{textAlign:"left"}}>Professionalism Score: </th>
       <td style={{textAlign:"right"}}>{greetingScore}/20</td>
       </tr>
       <tr>
