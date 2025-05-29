@@ -1,6 +1,6 @@
 # AI Resume Parser & Candidate Shortlisting Tool
 
-An AI-powered resume parser and shortlisting system built using **Django**, **React**, **LangChain with OpenAI**, and **Sentence Transformers**. It parses uploaded resumes, compares candidate skills and education against job requirements, and ranks candidates with smart shortlisting logic.
+An AI-powered resume parser and shortlisting system built using **Django**, **React**, **LangChain**, and **Sentence Transformers**. It parses uploaded resumes, compares candidate skills and education against job requirements, and ranks candidates with smart shortlisting logic.
 
 ---
 
@@ -33,7 +33,7 @@ An AI-powered resume parser and shortlisting system built using **Django**, **Re
 
 ### 1. Clone the Repository
 ### 2. Backend Setup
-- cd backend
+- cd server
 - pip install -r requirements.txt
 - create .env
 - add the API key
@@ -41,7 +41,6 @@ API_KEY=your_openai_api_key_here
 - python manage.py makemigration
 - python manage.py migrate
 - python manage.py runserver
-
 ### 3. Frontend Setup
 - cd ../client
 - npm install
